@@ -108,3 +108,15 @@ fun triangle01() {
         println()
     }
 }
+
+
+fun butterflyPattern() {
+    val n =8
+    val m =8
+    for(i in 1..n) {
+        for (j in 1..m) {
+            print("*")
+        }
+        println()
+    }
+}
