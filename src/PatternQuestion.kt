@@ -92,5 +92,19 @@ fun floydTriangle() {
         }
         println()
     }
+}
 
+fun triangle01() {
+    val n = 5
+    for (i in 1..n) {
+        for (j in 1..i) {
+            val sum =i+j
+            if (sum % 2 ==0) {
+                print("1 ")
+            } else {
+                print("0 ")
+            }
+        }
+        println()
+    }
 }
