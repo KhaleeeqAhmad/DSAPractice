@@ -24,10 +24,6 @@ fun hollowRectangle() {
         println()
     }
 }
-/*
-*  when
-*
-* */
 
 fun halfPyramid() {
     val n = 4
@@ -45,6 +41,19 @@ fun invertedHalfPyramid() {
     for (i in n downTo 1){
         for (j in 1..i) {
             print("*")
+        }
+        println()
+    }
+}
+
+fun invertedHalfPyramid180() {
+    val n = 4
+    for (i in n downTo 1) {
+        for (j in 1..n) {
+            if (i<=j) {
+                print("*")
+            }else
+                print(" ")
         }
         println()
     }
