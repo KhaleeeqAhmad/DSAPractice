@@ -80,3 +80,17 @@ fun invertedHalfPyramidWithNumbers() {
     }
 
 }
+
+
+fun floydTriangle() {
+    val n = 5
+    var incrementedNumber = 1
+    for (i in 1..n) {
+        for (j in 1..i) {
+            print("$incrementedNumber ")
+            incrementedNumber++
+        }
+        println()
+    }
+
+}
