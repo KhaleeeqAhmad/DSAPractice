@@ -39,3 +39,13 @@ fun halfPyramid() {
         println()
     }
 }
+
+fun invertedHalfPyramid() {
+    val n = 4
+    for (i in n downTo 1){
+        for (j in 1..i) {
+            print("*")
+        }
+        println()
+    }
+}

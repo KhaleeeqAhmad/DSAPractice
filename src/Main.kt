@@ -3,5 +3,6 @@
 fun main() {
     //solidRectangle(3,3)
     //hollowRectangle()
-    halfPyramid()
+    //halfPyramid()
+    invertedHalfPyramid()
 }
