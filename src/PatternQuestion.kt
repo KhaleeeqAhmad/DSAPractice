@@ -38,7 +38,7 @@ fun halfPyramid() {
 
 fun invertedHalfPyramid() {
     val n = 4
-    for (i in n downTo 1){
+    for (i in n downTo 1) {
         for (j in 1..i) {
             print("*")
         }
@@ -50,9 +50,9 @@ fun invertedHalfPyramid180() {
     val n = 4
     for (i in n downTo 1) {
         for (j in 1..n) {
-            if (i<=j) {
+            if (i <= j) {
                 print("*")
-            }else
+            } else
                 print(" ")
         }
         println()
@@ -73,7 +73,7 @@ fun halfPyramidWithNumbers() {
 fun invertedHalfPyramidWithNumbers() {
     val n = 5
     for (i in n downTo 1) {
-        for (j in 1..i){
+        for (j in 1..i) {
             print(j)
         }
         println()
@@ -98,8 +98,8 @@ fun triangle01() {
     val n = 5
     for (i in 1..n) {
         for (j in 1..i) {
-            val sum =i+j
-            if (sum % 2 ==0) {
+            val sum = i + j
+            if (sum % 2 == 0) {
                 print("1 ")
             } else {
                 print("0 ")
@@ -111,10 +111,35 @@ fun triangle01() {
 
 
 fun butterflyPattern() {
-    val n =8
-    val m =8
-    for(i in 1..n) {
-        for (j in 1..m) {
+    val n = 4
+    for (i in 1..n) {
+        for (j in 1..i) {
+            print("*")
+        }
+
+        val spaces = 2 *(n-i)
+        for (j in spaces downTo 1) {
+            print(" ")
+        }
+
+        for (j in i downTo 1) {
+            print("*")
+        }
+
+        println()
+    }
+
+    for (i in n downTo 1) {
+        for (j in 1..i) {
+            print("*")
+        }
+
+        val spaces = 2 *(n-i)
+        for (j in spaces downTo 1) {
+            print(" ")
+        }
+
+        for (j in i downTo 1) {
             print("*")
         }
         println()
