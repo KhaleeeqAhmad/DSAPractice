@@ -110,6 +110,19 @@ fun triangle01() {
 }
 
 
+
+/*
+*      *
+**    **
+***  ***
+********
+********
+***  ***
+**    **
+*      *
+*/
+
+
 fun butterflyPattern() {
     val n = 4
     for (i in 1..n) {
@@ -142,6 +155,29 @@ fun butterflyPattern() {
         for (j in i downTo 1) {
             print("*")
         }
+        println()
+    }
+}
+
+/*
+       ****
+      ****
+     ****
+    ****
+*/
+
+fun printPattern() {
+    val n = 5
+    for (i in 1..n) {
+        val spaces = n-i
+        for (j in spaces downTo 1) {
+            print(" ")
+        }
+
+        repeat(n){
+            print("*")
+        }
+
         println()
     }
 }
