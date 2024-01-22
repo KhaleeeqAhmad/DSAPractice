@@ -181,3 +181,18 @@ fun printPattern() {
         println()
     }
 }
+
+fun pyramidNumbers() {
+    val n = 5
+    for (i in 1..n) {
+        val spaces = n-i
+        for (j in spaces downTo 1) {
+            print(" ")
+        }
+
+        for (j in 1..i) {
+            print("$i ")
+        }
+        println()
+    }
+}
