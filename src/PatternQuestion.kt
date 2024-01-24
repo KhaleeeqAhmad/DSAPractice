@@ -137,6 +137,15 @@ fun butterflyPattern() {
 
         for (j in i downTo 1) {
             print("*")
+
+
+
+
+
+
+
+
+
         }
 
         println()
@@ -177,7 +186,6 @@ fun printPattern() {
         repeat(n){
             print("*")
         }
-
         println()
     }
 }
