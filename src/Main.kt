@@ -1,8 +1,7 @@
-import basic_questions.avgOfNumbers
-import basic_questions.sumOfOddNumbers
+import basic_questions.greaterNumber
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 fun main() {
-    sumOfOddNumbers(10)
+    greaterNumber(10, 10)
 }
