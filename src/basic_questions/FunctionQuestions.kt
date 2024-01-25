@@ -10,3 +10,19 @@ fun avgOfNumbers(a: Int, b: Int, c: Int) {
     println("Average: $avg")
 
 }
+
+/*
+*Write a function to print the sum of all odd numbers from 1 to n.
+* */
+
+fun sumOfOddNumbers(n: Int) {
+    var sum = 0
+
+    for(i in 1..n) {
+        if (i%2!=0) {
+            sum += i
+        }
+    }
+
+    println("Sum: $sum")
+}
