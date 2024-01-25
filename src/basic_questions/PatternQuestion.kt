@@ -1,3 +1,5 @@
+package basic_questions
+
 fun solidRectangle(numberOfRows: Int, numberOfColumns: Int) {
 
     for (i in 0..numberOfRows) {
@@ -137,17 +139,7 @@ fun butterflyPattern() {
 
         for (j in i downTo 1) {
             print("*")
-
-
-
-
-
-
-
-
-
         }
-
         println()
     }
 
@@ -204,3 +196,5 @@ fun pyramidNumbers() {
         println()
     }
 }
+
+
