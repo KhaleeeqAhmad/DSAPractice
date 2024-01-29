@@ -1,16 +1,14 @@
-import arrays.array2D
-import arrays.maxMinNumberInArray
-import arrays.searchNumberFromArray
-import basic_questions.greaterNumber
+import arrays.searchNumberFrom2DArray
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 fun main() {
-    val tempArray = intArrayOf(1,4,6,8,3,5,9, 1)
+    val tempArray1 = intArrayOf(1, 4, 6, 8, 3, 5, 9, 1)
+    val tempArray2 = intArrayOf(1, 6, 3, 8, 2, 9, 2)
     val emptyArray = intArrayOf()
 
 
     //maxMinNumberInArray(tempArray)
 
-    array2D(3,7)
+    searchNumberFrom2DArray(3, 4, 10)
 }
