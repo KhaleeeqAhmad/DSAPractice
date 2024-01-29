@@ -1,3 +1,4 @@
+import arrays.array2D
 import arrays.maxMinNumberInArray
 import arrays.searchNumberFromArray
 import basic_questions.greaterNumber
@@ -9,5 +10,7 @@ fun main() {
     val emptyArray = intArrayOf()
 
 
-    maxMinNumberInArray(tempArray)
+    //maxMinNumberInArray(tempArray)
+
+    array2D(3,7)
 }
