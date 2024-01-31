@@ -1,4 +1,5 @@
 import arrays.searchNumberFrom2DArray
+import strings.printString
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
@@ -10,5 +11,7 @@ fun main() {
 
     //maxMinNumberInArray(tempArray)
 
-    searchNumberFrom2DArray(3, 4, 10)
+    //searchNumberFrom2DArray(3, 4, 10)
+    printString("Khaleeq")
 }
+
