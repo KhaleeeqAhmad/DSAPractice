@@ -1,5 +1,6 @@
 import arrays.searchNumberFrom2DArray
 import sorting.bubbleSort
+import sorting.selectionSort
 import strings.printString
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
@@ -9,7 +10,7 @@ fun main() {
     val tempArray2 = intArrayOf(1, 6, 3, 8, 2, 9, 2)
     val emptyArray = intArrayOf()
 
-    bubbleSort(tempArray1)
+    selectionSort(tempArray1)
 
 }
 

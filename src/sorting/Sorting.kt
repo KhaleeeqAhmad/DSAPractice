@@ -19,3 +19,26 @@ fun bubbleSort(array: IntArray) {
         print("${array[i]},")
     }
 }
+
+fun selectionSort(array: IntArray){
+
+    /**
+     * Time Complexity = 0(n^2)
+     * */
+
+    for (i in array.indices) {
+        var smallest = i
+        for (j in i+1..<array.size) {
+            if (array[smallest] > array[j]) {
+                smallest = j
+            }
+        }
+        val temp = array[smallest]
+        array[smallest] = array[i]
+        array[i] = temp
+    }
+
+    for (i in array.indices) {
+        print("${array[i]},")
+    }
+}
