@@ -42,3 +42,26 @@ fun selectionSort(array: IntArray){
         print("${array[i]},")
     }
 }
+
+
+fun insertionSort(array: IntArray) {
+
+    /**
+     * Time Complexity = 0(n^2)
+     * */
+
+    for (i in 1..<array.size) {
+        val current = array[i]
+        var j = i-1
+
+        while (j >=0 && current < array[j]) {
+            array[j+1] = array[j]
+            j--
+        }
+        array[j+1] = current
+    }
+
+    for (i in array.indices) {
+        print("${array[i]},")
+    }
+}
